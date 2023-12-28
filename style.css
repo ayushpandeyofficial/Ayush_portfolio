@@ -47,7 +47,11 @@ body {
 
 /*--- service-section--- */
 
+.services .section-body{
+    margin-left: 40px;
+} 
 .service-card {
+   
     margin-right: 60px;
 }
 
@@ -74,7 +78,7 @@ body {
 }
 
 .service-card:hover .service-card-body {
-    top: 60%;
+    top: 55%;
 }
 
 .services {
@@ -173,7 +177,6 @@ body {
 }
 
 .footer-logo img{
-   
     height: 40px;
     width: 126px;
     object-fit: cover;
@@ -181,4 +184,20 @@ body {
 .icon li a{
     margin-right: 10px;
     font-size: 20px;
+}
+
+/*===== faq section==== */
+.faq{padding-top: 80px;}
+.faq .faq-heading p{margin: 20px 0; font-size: 14px;font-style: italic;color: #ff9f19;}
+
+.accordion{margin: 50px 85px; --bs-accordion-bg:transparent;--bs-accordion-btn-focus-box-shadow:unset;--bs-accordion-active-bg:unset;}
+.accordion-body{text-align: start; background-color: transparent;}
+.accordion-collapse hr{margin: 0; color: #ff9f19;}
+.accordion-header{margin-bottom: 20px;}
+.accordion-item >hr{margin: 0;color:#00000050}
+
+.copyright{
+    bottom: 0;
+    left: 30%;
+    width: 100%;
 }
